@@ -1,0 +1,291 @@
+/* Home page Properties */
+
+
+.card-container {
+    display: flex;
+    width: 27vw;
+    gap: 90px;
+  }
+  @media only screen and (max-width: 1024px) {
+    .card-container {
+      width: 38vw !important;
+      gap: 3vw;
+      margin: 0px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .card-container {
+      /* width: 100%; */
+      width: 38vw !important;
+      gap: 3vw;
+      margin: 0px
+    }
+
+  }
+  .heading {
+    /* text-align: center; */
+    margin: 20px 0;
+    margin-left: 50px;
+    margin-top: 40px;
+    color: whitesmoke;
+    font-size: 20px;
+  }
+  
+  .div-property {
+    border-radius: 0px 0px 0px 0px;
+    display: flex;
+    max-width: 44vw;
+    flex-direction: column;
+  }
+  @media only screen and (max-width: 1024px) {
+    .div-property{
+      max-width: 40vw;
+
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .div-property{
+      max-width: 44vw;
+      width: 22vw;
+      margin: 0px;
+    }
+  }
+  /* ------------------------------- */
+  .img-property{
+    aspect-ratio: 1.32;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    z-index: 10;
+  }
+  @media only screen and (max-width: 1024px) {
+    .img-property{
+      max-width:44vw;
+
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .img-property{
+      max-width:42vw;
+      width: 34vw;
+
+    }
+  }
+
+  /* ----------------------------------------------- */
+  .div-2 {
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    margin-top: -15px;
+    width: 81%;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: start;
+    padding: 25px 33px 13px;
+  }
+  @media only screen and (max-width: 1024px) {
+    .div-2 {
+      width: 34vw;
+      padding: 2vw;
+      text-align: justify;
+      font-size: 1.7rem;
+
+    }
+  }
+  @media only screen and (max-width: 600px) {
+      .div-2 {
+        width: 30vw;
+        padding: 2vw;
+        text-align: justify;
+        font-size: 1.7rem;
+    }
+  }
+  .sunset-ridge-villas {
+    color: rgba(87, 96, 78, 1);
+    align-self: stretch;
+    font: 400 33px Helvetica, sans-serif;
+  }
+ 
+  .price {
+    color: rgba(217, 63, 63, 1);
+    font: 700 40px Helvetica, sans-serif;
+  }
+  .beautiful-updated {
+    color: rgba(91, 84, 84, 1);
+    margin-top: 1vh;
+    font: 400 1.2rem Helvetica Light, sans-serif;
+  }
+  .div-3 {
+    margin-top: 6vh;
+    width: 275px;
+    max-width: 100%;
+    height: 1px;
+    border: 1px solid rgba(233, 217, 217, 1);
+  }
+  @media only screen and (max-width:1024px) {
+    .sunset-ridge-villas {
+      color: rgba(87, 96, 78, 1);
+      align-self: stretch;
+      text-wrap: wrap;
+      padding: 4vw 4vw 4vw 4vw;
+      font: 400 2rem Helvetica, sans-serif;
+    }
+    .price {
+      color: rgba(217, 63, 63, 1);
+      font: 700 1.8rem Helvetica, sans-serif;
+      padding-left: 3vh;
+    }
+    .beautiful-updated {
+      color: rgba(91, 84, 84, 1);
+      margin-top: 1vh;
+      font: 400 0.9rem Helvetica Light, sans-serif;
+    }
+    .div-3 {
+      margin-top: 4vh;
+      width: 275px;
+      max-width: 100%;
+      height: 1px;
+      border: 1px solid rgba(233, 217, 217, 1);
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .sunset-ridge-villas {
+      color: rgba(87, 96, 78, 1);
+      text-align: left;
+      align-self: stretch;
+      text-wrap: wrap;
+      text-align: left;
+      padding: 2vw 2vw 2vw 2vw;
+      font: 400 1rem Helvetica, sans-serif;
+    }
+    .price {
+      color: rgba(217, 63, 63, 1);
+      font: 700 1.3rem Helvetica, sans-serif;
+      /* padding-left: 3vh; */
+      padding: 0px;
+      padding-left:2vw ;
+    }
+    .beautiful-updated {
+      color: rgba(91, 84, 84, 1);
+      margin-top: 1vh;
+      padding: 1w;
+      font: 400 0.7rem Helvetica Light, sans-serif;
+    }
+  }
+  /* ------------------------------------- */
+  
+  .div-4 {
+    display: flex;
+    margin-top: 9px;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+   
+  }
+  .div-five {
+    display: flex;
+    gap: 4px;
+    color: rgba(0, 0, 0, 1);
+    font: 400 15px Helvetica Light, sans-serif;
+  }
+  @media only screen and (max-width: 1024px) {
+    .div-4 {
+      flex-direction: flex;
+      align-items: stretch;
+      gap: 0px;
+      margin-top: -67px;
+      margin-left: -22px;
+    }
+    .div-five {
+      display: flex;
+      margin-left: 2vw;
+      margin-top: 7vh;
+      gap: 4px;
+      color: rgba(0, 0, 0, 1);
+      font: 400 1.1rem Helvetica Light, sans-serif;
+    }
+  }
+  @media only screen and (max-width:600px) {
+    .div-five {
+      display: flex;
+      margin-left: 3vw;
+      margin-top: 7vh;
+      gap: 4px;
+      width: 30%;
+      color: rgba(0, 0, 0, 1);
+      font: 400 0.8rem Helvetica Light, sans-serif;
+    }
+  }
+ 
+  .img-2 {
+    aspect-ratio: 0.96;
+    object-fit: contain;
+    object-position: center;
+    width: 25px;
+    margin-top: -1px;
+  }
+  @media only screen and (max-width: 1024px) {
+    .img-2{
+      margin-top: -1px;
+      margin-right: 1vw;
+      font-size: 20px;
+      width: 26px;
+
+    }
+  }
+  .alice-adams {
+    margin: auto 0;
+  }
+  .div-6 {
+    display: flex;
+    gap: 12px;
+    margin: auto 0;
+  }
+  @media only screen and (max-width: 1024px) {
+    .div-6 {
+      margin-top: 44px;
+      display: flex;
+      gap: 10px;
+      margin-left: 20px;
+
+    }
+  }
+  @media only screen and  (max-width: 600px) {
+    .div-6 {
+      margin-top: 44px;
+      display: flex;
+      gap: 10px;
+      /* margin: 44px auto;  */
+  }
+}
+  .div-7 {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(194, 180, 180, 1);
+  }
+  .div-8 {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(194, 180, 180, 1);
+  }
+  @media only screen and (max-width: 1024px) {
+    .div-8 {
+      margin-top: 40px;
+    }
+  }
+  .div-9 {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(194, 180, 180, 1);
+  }
+  

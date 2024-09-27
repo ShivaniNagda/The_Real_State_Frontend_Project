@@ -1,0 +1,512 @@
+.contact-container{
+  width: 100vw;
+ height: fit-content;
+}
+.firsst-container{
+  display: block;
+  margin: auto;
+  height: 28vh;
+  margin-bottom: 75vh;
+    background-color: #d9d9d9;
+    width: 100vw;
+    padding: 8vw 0vw 18vw 0vw;
+    text-align: center;
+}
+
+.firsst-container h1{
+    font-family: Helvetica;
+    text-align: center;
+    /* padding-top: 100px; */
+}
+@media only screen and (max-width: 1024px) {
+  .firsst-container{
+    display: block;
+    margin: auto;
+    height: 20vh;
+  }
+  .firsst-container h1{
+    font-size: 2rem; 
+
+  }
+}
+@media only screen and (max-width:600px) {
+  .firsst-container{
+    display: block;
+    margin: auto;
+    height: 35vh;
+  }
+  .firsst-container h1{
+    font-size: 1.5rem;
+  }
+}
+.firsst-container p{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+    margin: 0px;
+    padding: 20px;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    font-family: Helvetica light;
+    color: #786C6C;
+    font-size: 1.5rem;
+}
+@media only screen and (max-width: 1024px) {
+  .firsst-container p{
+   font-size: 1.6rem;
+   text-align: justify;
+   height: 20vh;
+  }
+}
+@media only screen and (max-width:600px) {
+  .firsst-container p{
+    height: 20vh;
+    font-size: 1.3rem;
+    align-items: center;
+    text-align: justify;
+  }
+}
+/* ------------------------------- */
+.seconnd-container{
+    background-color: #585E52;
+    /* height: 60vh; */
+    width: 100vw;
+    height: 80vh;
+    margin-top: 30vh;
+}
+@media only screen and (max-width: 1024px) {
+  .seconnd-container{
+    width: 100vw;
+    height: 40vh !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .seconnd-container{
+    width: 100vw;
+    height: 45vh;
+  }
+}
+.contactt-form{
+  width: 100vw;
+  margin-top: -130vh;
+  display: flex;
+ justify-content: center;
+ align-content: center;
+
+
+}
+.contactt {
+  padding: 15vh 5vh;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    /* padding: 92px 59px 21px; */
+    font: 400 25px Helvetica, sans-serif;
+   
+    /* height: 50vh; */
+  }
+  @media only screen and (max-width: 1024px) {
+    .contactt-form{
+      width: 100vw;
+      margin-top: 0px;
+      display: flex;
+     justify-content: center;
+     align-content: center;
+    
+    
+    }
+    .contactt{
+      padding: 4vh 6vw;
+      width: 50vw;   
+      margin-top: -55vh;
+      height: 40vh;
+      font-size: 1.2rem;
+    }
+    }
+    @media only screen and (max-width: 600px) {
+      .contactt-form{
+        width: 100vw;
+        margin-top: 0px;
+        display: flex;
+       justify-content: center;
+       align-content: center;
+      
+      }
+      .contactt{
+        width: 68vw;
+        margin-top: -56vh;
+        height: 40vh;
+        padding-top: 3vh 5vw; 
+        font-size: 0.9rem;
+      }
+      }
+  
+ 
+  .contactt-2 {
+    display: flex;
+    gap: 4vh 12vw;
+    white-space: nowrap;
+    flex-wrap: wrap;
+  }
+  @media only screen and (max-width: 1024px) {
+    .contactt-2 {
+      display: flex;
+      gap: 4vh 6vh;
+      white-space: nowrap;
+      flex-wrap: wrap;
+
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .contactt-2 {
+      display: flex;
+      gap: 3vh 5vh;
+      white-space: nowrap;
+      flex-wrap: wrap;
+     
+
+    }
+  }
+  .contactt-3 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    /* width: 30vw; */
+    flex: 1;
+  }
+  @media only screen and (max-width: 1024px) {
+    .contactt-3 {
+      /* margin-left: 3vw; */
+    }
+  }
+ 
+  .contactt-4 {
+    margin-top: 5vh;
+    height: 1px;
+    border: 1px solid rgba(0, 0, 0, 1);
+  }
+  @media only screen and (max-width: 1024px) {
+    .contactt-4 {
+      margin-top: 3vh;
+    }
+  }
+  .contactt-5 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  @media only screen and (max-width: 1024px) {
+    .div-5 {
+      white-space: initial;
+    }
+  }
+  .email {
+    align-self: start;
+  }
+  
+  .contactt-7 {
+    display: flex;
+    margin-top: 6vh;
+    flex-wrap: wrap;
+    gap: 4vh 12vw;
+  }
+  @media only screen and (max-width: 1024px) {
+    .contactt-7 {
+      max-width: 100%;
+      gap: 3vh 4vh;
+      margin-top: 4vh;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .contactt-7 {
+     gap: 3vh 5vh;
+    }
+  }
+  .contactt-8 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  @media only screen and (max-width: 600px) {
+    .contactt-8 {
+      max-width: 100%;
+     
+    }
+  }
+  .phone-number {
+    align-self: start;
+  }
+  @media only screen and (max-width: 1024px) {
+    .phone-number{
+      display: flex;
+      /* margin-left: -6px; */
+
+    }
+  }
+  .contactt-9 {
+    margin-top: 41px;
+    height: 1px;
+    border: 1px solid rgba(0, 0, 0, 1);
+  }
+  @media only screen and (max-width: 1024px) {
+    .contactt-9 {
+      margin-top: 40px;
+    }
+  }
+  @media (max-width: 480px) {
+    .contactt-9 {
+      width: 177px;
+      margin-left: -6px;
+    }
+  }
+  .contactt-10 {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    flex: 1;
+  }
+  @media only screen and  (max-width: 1024px) {
+    .div-10 {
+      white-space: initial;
+    }
+  }
+  @media only screen and  (max-width: 600px) {
+    .contactt-10 {
+      white-space: initial;
+      margin-top: -3px;
+
+
+    }
+  }
+  .subject {
+    align-self: start;
+  }
+  .contactt-11 {
+    margin-top: 41px;
+    height: 1px;
+    border: 1px solid rgba(0, 0, 0, 1);
+  }
+  @media only screen and  (max-width: 1024px) {
+    .div-11 {
+      margin-top: 40px;
+    }
+  }
+  .message {
+    align-self: start;
+    margin-top: 50px;
+  }
+  @media only screen and (max-width: 1024px) {
+    .message {
+      margin-top: 40px;
+    }
+  }
+  @media only screen and  (max-width: 600px) {
+    .message {
+      margin-top: 26px;
+      margin-left: -6px;
+    }
+  }
+  .contactt-12 {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    margin-top: 38px;
+    width: 815px;
+    max-width: 100%;
+    height: 53px;
+    border: 1px solid rgba(0, 0, 0, 1);
+  }
+  @media only screen and (max-width: 1024px) {
+    .contactt-12 {
+      margin-right: 2px;
+      
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .contactt-12 {
+      margin-top: 6px;
+    }
+  }
+  .send-message {
+    border-radius: 21px;
+    background-color: rgba(88, 94, 82, 1);
+    align-self: start;
+    margin-top: 18px;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    padding: 10px 8px;
+  }
+  @media only screen and (max-width: 600px) {
+    .send-message {
+      margin-left: -5px;
+      width: 35vw;
+      font-size: 1rem;
+    }
+  }
+/* -------------------------------- */
+.sectn2{
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 50vh;
+}
+
+  .location-service{
+   padding:3vh 5vw;
+  }
+  @media only screen and (max-width: 1024px) {
+    .sectn2{
+    margin-top: 5vh;
+    }
+    location-service{
+      padding:3vh 3vh;
+     }
+  }
+  @media only screen and (max-width:600px) {
+    .sectn2{
+    margin-top: 5vh;
+    }
+    location-service{
+      padding:3vh 3vh;
+     }
+  }
+  /* ---------------------------------- */
+  
+  .location-service h1{
+  font-weight: bold;  
+  font-size: 2rem;
+  }
+  @media only screen and (max-width: 1024px) {
+    .location-service h1 {
+      
+
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .location-service h1 {
+      display: ruby-text;
+      font-size: 1.3rem;
+    }
+  }
+  .location-service p , .location-service p1 , .location-service p2{
+    font-family: Helvetica light;
+    color: #786C6C;
+    margin: 0;
+    font-size: 1.4rem;
+   
+  }
+ 
+
+  @media only screen and (max-width: 1024px) {
+    .location-service p, 
+    .location-service p1, 
+    .location-service p2 {
+      font-size: 1.2rem;
+      margin: 0;
+      padding: 0; 
+
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .location-service p, 
+    .location-service p1, 
+    .location-service p2 {
+      font-size: 1.2rem;
+      margin: 0;
+      padding: 2vw; 
+      text-align: justify;
+    }
+  }
+
+  /* ------------------------------------------------- */
+  .loc-ser{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  @media only screen and (max-width:1024px) {
+    .loc-ser {
+      display: flex;
+     gap: 4vw;
+      justify-content: space-around;
+     
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .loc-ser {
+      width: 80vw;
+      gap: 5vw;
+     text-align: center;
+    }
+  }
+  /* ----------------------------------------- */
+  .divi {
+    border-radius: 35px;
+    background-color: rgba(88, 94, 82, 0.3);
+   display: block;
+   margin: auto;
+    overflow: hidden;
+    align-items: start;
+    padding: 4vh 6vh;
+    font: 400 1.3rem Helvetica, sans-serif;
+    text-align: justify;
+  }
+  @media only screen and (max-width: 600px) {
+    .divi {
+      padding: 2vh 2vh;
+      align-items: center;
+      max-width: fit-content;
+      height: 25vh;
+      padding-bottom: 5vh;
+    }
+  }
+  /* ------------------------------------ */
+  .location1 {
+    background-color: rgb(75, 70, 70);
+   color: aliceblue;
+   width: fit-content;
+    padding: 1vw;
+    margin: 5vh 3vh;
+    
+  }
+  .visit-us-at ,.connect-with-you{
+    font-size: 1.3rem;
+    padding-bottom: 5vh;
+  }
+  @media only screen and (max-width:1024px) {
+    .location1 {
+      background-color: rgb(75, 70, 70);
+     color: aliceblue;
+     width: fit-content;
+      padding: 1vw;
+      margin: 1vh 1vh;
+      
+    }
+    .visit-us-at ,.connect-with-you{
+      font-size: 1.3rem;
+      padding-bottom: 2vh;
+    }
+    
+  }
+  
+  @media only screen and (max-width:600px) {
+    .location1 {
+      background-color: rgb(75, 70, 70);
+     color: aliceblue;
+     width: fit-content;
+      padding: 1vw;
+      margin: 1vh 1vh;
+      
+    }
+    .visit-us-at ,.connect-with-you{
+      font-size: 1rem;
+      padding-bottom: 2vh;
+      padding: 2vw;
+    }
+    
+  }

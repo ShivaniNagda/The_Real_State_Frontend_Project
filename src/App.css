@@ -1,0 +1,151 @@
+.div-Home {
+  height: inherit;
+  width: inherit;
+  display: block;
+  padding:10px 0px 10px 0px;
+  background-color: rgba(88, 94, 82, 1);
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: start;
+  gap: 100px 100px;
+  overflow: hidden;
+  border: 1px solid rgba(217, 207, 207, 1);
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+.menu-toggle {
+  display: none;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.div-Home2 {
+  display: flex;
+  margin-top: 14px;
+  gap: 40px;
+  color: rgba(255, 255, 255, 1);
+  white-space: nowrap;
+  text-align: center;
+  flex-wrap: wrap;
+  font: 400 20px Helvetica, sans-serif;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #ccc; /* Optional: Change color on hover for better UX */
+}
+
+ @media only screen and (max-width: 600px)  {
+  .menu-toggle {
+    display: block;
+    font-size: 2rem;
+    position: relative;
+    z-index: 100;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding-left: 50%;
+    margin-top: -42px;
+
+  }
+  .div-Home {
+    flex-direction: inherit;
+    gap: 20px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  @media only screen and (max-width:1024px) {
+    .div-Home {
+    
+    gap: 0px !important;
+  }}
+
+  /* Initially hide the menu */
+  .div-Home2 {
+    display: flex; 
+    flex-direction: column;
+    position: absolute;
+    justify-content: left;
+    align-self: start;
+    align-items:center;
+    top: 60px;
+    background-color: rgba(88, 94, 82, 1);
+    border-radius: 5px;
+    z-index: 99;
+    margin-left: 30px;
+    padding: 1%;
+    left: 3%;
+    border-style:groove;
+    text-decoration: none;
+  }
+  .div-Home2 a{
+    text-decoration: none;
+  }
+
+  /* Show the menu when the 'open' class is added */
+  .div-Home2.open {
+    /* display: flex; */
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  
+  /* Style for navigation links */
+  .nav-link {
+    font-size: 18px;
+    color: white;
+    /* text-align: right; */
+    text-decoration: none;
+    padding: 0.5ch;
+    border-bottom: 1px solid white;
+    flex-direction: column;
+    
+  }
+
+  .nav-link:hover {
+    color: lightgray;
+  }
+
+  /* Adjust image styles on mobile */
+  .img-Home {
+    width: 40px;
+  }
+
+  .img-2home {
+    width: 25px;
+    display: none;
+  }
+
+
+  /* When the menu is open, show the links */
+  .div-Home2.open {
+    display: none;
+    flex-direction: column;
+    
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+    color: white;
+    text-align: right;
+  }
+
+  .div-Home3 {
+    display: flex; /* Optionally hide the secondary icon on small screens */
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,227 @@
+.main-container {
+  width: 100vw;
+  margin-top: 6vh;
+  display: flex;
+  justify-content: space-around;
+}
+.left-column {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  width: 40%; /* Adjust the width as needed */
+}
+.serv-title {
+    justify-content: left;
+    align-items: self-start;
+    font-weight: normal;
+    padding-left: 80px;
+    color: #585e52;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  .offer {
+    font-weight: 500;
+    padding-left: 80px;
+    margin-top: -15px;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  .what-we-offer {
+    padding-left: 80px;
+    margin-top: -15px;
+    color: #5b5454;
+    font-family: Helvetica, Arial, sans-serif;
+    /* width: 22vw; */
+  }
+@media only screen and (max-width: 1024px) {
+  .main-container {
+    /* flex-direction: column; */
+    justify-content: space-around;
+  }
+  .left-column {
+    display: flex;
+    flex-direction: column;           /* Stack items vertically */
+    width: 30%;                       /* Adjust the width as needed */
+}
+
+}
+@media only screen and (max-width: 600px) {
+  .main-container {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  .left-column {
+    display: flex;
+    flex-direction: column;           /* Stack items vertically */
+    width: 30%;                       /* Adjust the width as needed */
+}
+.serv-title {
+    text-align: center;
+    margin :0px !important;
+    margin-top: 5vh !important;
+    padding: 3vh;
+    font-size: 1.7rem;
+}
+.offer {
+    font-weight: 1rem;
+    text-align: center;
+    padding: 0.3vh;
+    /* margin-top: -15px; */
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  .what-we-offer {
+    color: #5b5454;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    /* width: 22vw; */
+  }
+}
+/* ---------------------------------------------- */
+
+
+
+
+.offer-container {
+  width: 20vw;
+  background-color: #f0e8e8;
+  height: 35vh;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+.see-more-button {
+  border-radius: 5px;
+  background-color: #2d2727;
+  color: #ffff;
+  padding: 5px 12px 5px 12px;
+  margin-left: 80px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width:1024px){
+    .offer-container {
+        width: 35vw;
+        background-color: #f0e8e8;
+        height: 35vh;
+       margin-left: 10vw;
+        margin-top: 30px;
+      }
+    
+}
+@media only screen and (max-width:600px){
+    .offer-container {
+        width: 100vw;
+        background-color: #f0e8e8;
+        height: 35vh;   
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+
+      }
+    
+}
+/* ------------------------------- */
+.four-container {
+    width: 50%;
+    margin-top: 85vh;
+  }
+  
+  .row-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -490px;
+  }
+.container-a {
+    width: 27vw;
+    height: 32vh;
+    background-color: #d9d9d9;
+    margin-left: 30%;
+    display: flex;
+    border-top: 8px solid #585e52;
+    border-left: 8px solid #585e52;
+  }
+  
+  .container-b {
+    width: 27vw;
+    height: 32vh;
+    margin-left: 4%;
+    background-color: #d9d9d9;
+    display: flex;
+    border-top: 8px solid #585e52;
+    border-right: 8px solid #585e52;
+  }
+  .container-c {
+    width: 27vw;
+    height: 32vh;
+    background-color: #d9d9d9;
+    margin-left: 30%;
+    display: flex;
+    border-bottom: 8px solid #585e52;
+    border-left: 8px solid #585e52;
+  }
+  
+  .container-d {
+    width: 27vw;
+    height: 32vh;
+    margin-left: 4%;
+    background-color: #d9d9d9;
+    display: flex;
+    border-bottom: 8px solid #585e52;
+    border-right: 8px solid #585e52;
+  }
+.row-container1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 60px;
+}
+@media only screen and (max-width: 1024px) {
+    .four-container {
+        width: 35%;
+        margin-top: 50vh;
+        margin-right: 10vw;
+      }
+     .row-container{
+      margin-top: -40vh;
+     }
+    .container-a {
+        width: 27vw;
+        height: 27vh;
+        margin-left: 10%;
+      }
+      
+      .container-b {
+        width: 27vw;
+        height: 27vh;
+        margin-left: 10%;
+       
+      }
+      .container-c {
+        width: 27vw;
+        height: 27vh;
+        margin-left: 10%;
+      }
+      .container-d {
+        width: 27vw;
+        height: 27vh;
+        margin-left: 10%;
+       
+      }
+}
+@media only screen and (max-width: 600px) {
+    .four-container {
+        width: 100vw;
+        margin: 0px;
+        margin-top: 60vh;
+       
+      }
+  }
+
+/* ----------------------------------------------- */
+

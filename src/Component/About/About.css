@@ -1,0 +1,463 @@
+.div-Home{
+    width: 100vw;
+    height: fit-content
+}
+.about-heading-par-image {
+    margin-top: 6%;
+    padding: 3vh 20vw;
+    text-align: justify;
+    font: 1em sans-serif;
+}
+
+.about-heading-par-image h1{
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #5A645E;
+    margin-top: 100px;
+    text-align: center;
+    margin: 0px 20px 20px 20px;
+}
+@media only screen and (max-width: 1024px) {
+    .about-heading-par-image h1 {
+        text-align: center;
+    font-size: 1.6rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .about-heading-par-image h1 {
+        text-align: center;
+        font-size: 1.4rem;
+     }
+}
+.about-heading-par-image p {
+    font-family: Helvetica light;
+    color: #5B5454;
+    /* margin-left: 80vh; */
+    font-size: 20px;
+    margin: 0; 
+    padding: 0; 
+    line-height: 1.5; 
+}
+@media only screen and (max-width: 1024px) {
+    .about-heading-par-image p .line1 {
+      font-size: 1.2rem;
+      text-align: center; 
+      text-wrap: wrap;
+      padding: 2px;
+      
+      white-space: nowrap;
+      display: block; 
+      align-items: center;
+      justify-content: center;
+    }
+}
+/* --------------------------------------------- */
+
+.image-container{
+    position: relative;
+    margin-top: 50px;
+}
+
+.house1{
+    margin-left: 53vh;
+    width: 50%;
+}
+@media only screen and (max-width: 1024px) {
+    .image-container{
+        position: relative;
+        margin-top: 50px;
+    }
+    .house1 {
+        margin: 0px;
+        height: 26vh;
+        position: relative;
+        transform: translate(50%,0%);
+    
+    }
+}
+@media only screen and (max-width: 600px) {
+    .house1 {
+        margin-top: 10px;
+        height: auto;
+        position: relative;
+    }
+}
+
+.container1{
+    background-color: #585E52;
+    height: 40vh;
+    width: 100%;
+    margin-top: -150px;
+}
+@media only screen and (max-width: 1024px) {
+    .container1 {
+        width: 100vw;
+        height: 27vh;
+}
+}
+@media only screen and (max-width: 600px){
+    .container1 {
+        width: 100%;
+        height: 15vh;
+        margin-top: -7vh;
+    }
+}
+
+.house2{
+    margin-left: 10vw;
+    width: 500px;
+    height: 505.83px;
+    object-fit: cover; /* Ensures the image covers the entire area, if necessary */
+    margin-top:10vh;
+}
+@media only screen and (max-width:1024px) {
+    .house2 {
+        margin-left: 123px;
+        height: 35vh;
+        width: 35vw;
+        margin-top: 120px;
+    
+    }
+}
+@media only screen and (max-width:600px) {
+    .house2 {
+        margin-left: 18px;
+        height: auto;
+        width: 45%;
+        margin-top: 15%;
+    }
+}
+.container2{
+    background-color: #585E52;
+    height: 150vh;
+    width: 15vw;
+    /* transform: translate(270%,-104%); */
+    margin-top: -130vh;
+    margin-left: 91vh;
+}
+@media only screen and (max-width: 1024px) {
+    .container2 {
+        margin-left: 285px;
+        width: 27%;
+        height: 70vh;
+        margin-top: -55vh;
+    }
+}
+@media only screen and (max-width:600px) {
+    .container2 {
+        margin-left: 126px;
+        width: 35%;
+        margin-top: -372px;
+        height: 55vh;
+
+    }
+}
+.about-shadow-container {
+    background-color: #585E52; /* Set the background color */
+    color: white; /* Ensure the text is readable against the dark background */
+    padding: 15px 30px 20px 50px;  /* Add some padding inside the container */
+    border-radius: 0px; /* Optional: round the corners of the container */
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.8); /* Drop shadow effect */
+    max-width: 350px; /* Optional: set a max width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: left; /* Align the text to the left */
+    z-index: 1; /* Ensure it appears above other content */
+    width: 39%;
+    margin-top: -415px;
+    margin-left: 100vh;
+    opacity: 0.8; /* Adjust the opacity (0 is fully transparent, 1 is fully opaque) */
+    height: 45vh;
+}
+@media only screen and  (max-width: 1024px) {
+    .about-shadow-container {
+        margin-left: 30vw;
+        height: 18vh;
+        width: 26vw;
+        margin-top: -55vh;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .about-shadow-container {
+        margin-left: 151px;
+        height: 18vh;
+        margin-bottom: 40px;
+        overflow: hidden;
+        /* width: 47vw; */
+        margin-top: -300px;
+        /* position: relative; */
+    }
+}
+
+.about-shadow-container h1 {
+    margin-bottom: 15px; /* Add some space below the heading */
+    font-weight: bold;
+    font-family: Helvetica;
+}
+@media only screen and  (max-width: 1024px)  {
+    .about-shadow-container h1 {
+        font-size: 0.8rem;
+        overflow-y: scroll;
+  
+    }
+}
+
+.about-shadow-container p {
+    margin: 0; /* Remove default margin */
+    line-height: 1.1; /* Adjust line height for better readability */
+    font-family: Helvetica;
+    font-weight: bold ;
+    font-size: 1.1em;
+    padding: 0;
+    justify-content: space-between;
+   
+}
+@media only screen and (max-width: 1024px) {
+    .about-shadow-container p {
+        font-size: 0.8rem;
+        font-weight: normal;
+        
+    }
+}
+@media only screen and (max-width: 600px) {
+    .about-shadow-container p {
+        font-size: 0.7rem;
+        font-weight: normal;
+        text-align: justify;
+        text-wrap: wrap;
+        margin-left: -31px;
+        margin-right: -14px;
+        overflow:hidden;
+        margin-bottom: 20px;
+    }
+}
+
+
+.about-cont2{
+    background-color: #585E52;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 16vh;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Adjust direction if needed */
+    align-items: center; /* Center content horizontally if needed */
+    justify-content: center; /* Center content vertically if needed */
+}
+@media only screen and (max-width: 1024px) {
+    .about-cont2 {
+    
+        height: 48vh;
+      margin-top: 25vh;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .about-cont2 {
+        width: 100%;
+        margin-top: -1vh;
+        height: 50vh;
+    }
+}
+.about-cont2 h1{
+margin-left: -2vh;
+padding-top: -30px;
+color: white;
+}
+@media only screen and  (max-width: 1024px) {
+    .about-cont2 h1 {
+        margin-top: 7vh;
+        /* margin-left: 20px; */
+    }
+}
+@media only screen and  (max-width: 600px) {
+    .about-cont2 h1 {
+        margin-top: 3.2vh;
+        position: relative;
+    }
+}
+.about-frames{
+    gap: 30px;
+    margin-top: 8vh;
+    justify-content: space-around;
+    display: flex;
+    gap: 5vw;
+}
+@media only screen and (max-width: 1024px) {
+    .about-frames {
+        width: 443px;
+        /* margin-left: 143px; */
+        gap: 10vw;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .about-frames {
+        width: 97vw;
+        gap: 3vw;
+    }
+}
+
+.about-frames img {
+    max-width: 100%; /* Ensure images fit within their container */
+    height: auto; /* Maintain aspect ratio */
+}
+@media only screen and (max-width: 1024px) {
+    .about-frames img {
+       
+        width: 25vw;
+        height: 22vh;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .about-frames img {
+        display: flexbox;
+        flex-direction: column;
+        width: 25vw;
+        height: 20vh;
+        position: relative;
+        gap: 10px;
+        margin: 0px;
+        padding: auto;
+        overflow: hidden;
+        
+        
+    }
+}
+.why-choose-us {
+    position: relative; /* Set relative positioning for the child elements */
+    width: 100%; /* Full width of the parent container */
+    height: 60vh; /* Adjust based on your design requirements */
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+@media only  screen and (max-width: 1024px) {
+    .why-choose-us {
+        position: relative; /* Set relative positioning for the child elements */
+        width: 100%; /* Full width of the parent container */
+        height: 60vh; /* Adjust based on your design requirements */
+        margin-top: 15px;
+        
+
+    }
+}
+@media only  screen and (max-width: 600px) {
+    .why-choose-us {
+        position: relative; /* Set relative positioning for the child elements */
+        margin-top: 0px;
+        height: 42vh;
+        
+
+    }
+}
+
+
+.pink-cont {
+    width: 25%; /* Set the width of the container */
+    background-color: #EFCACA; /* Set the background color */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 8px; /* Optional: round the corners of the container */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: add a subtle shadow effect */
+    color: #333; /* Set text color */
+    text-align: left; /* Align text to the left */
+    display: flex; /* Use flexbox to align items */
+    flex-direction: column;
+    justify-content: center; /* Center items vertically */
+    position: absolute; /* Position absolutely within the relative container */
+    top: 50%; /* Adjust based on your design */
+    left: 50%; /* Adjust based on your design */
+    transform: translate(-50%, -50%); /* Center the container */
+    z-index: 1; /* Ensure it appears above the image */
+    height: 40vh;
+    margin-left: -150px;
+    margin-top: 120px;
+}
+@media only screen and (max-width:1024px) {
+    .pink-cont  {
+        
+        height: 30vh;
+        width: 38vw;
+        margin-top: 62px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .pink-cont  {
+        margin: 0px;
+        height:fit-content;
+       transform: translate(-60%,-10%);
+    }
+}
+
+.pink-cont h1 {
+    margin-top: 0; /* Remove default top margin */
+    margin-bottom: 10px; /* Add some space below the heading */
+    color: #333; /* Adjust font color */
+    padding-left: 8px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 2rem;
+    position:relative;
+    /* z-index: auto; */
+}
+@media only screen and (max-width:1024px){
+    .pink-cont h1  {
+        margin-left: 1px;
+        font-size: 21px;
+        margin-top: 2px;  
+    }
+}
+@media only screen and (max-width:600px) {
+    .pink-cont h1{
+        font-size: 15px;
+        margin-left: 9px;
+    }
+}
+.pink-cont p {
+    margin: 0; /* Remove default margin */
+    line-height: 1.1; /* Adjust line height for better readability */
+    font-size: 16px; /* Adjust font size */
+    max-width: 100%; /* Ensure text wraps within the container */
+    padding-left: 7px;
+    font-family: Helvetica light;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: justify;
+    
+    /* position: absolute; */
+}
+@media only screen and (max-width:1024px) {
+    .pink-cont p  {
+        margin-left: 3px;
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:600px) {
+    .pink-cont p  {
+        margin-left: 3px;
+        font-size: 1rem;
+    }
+}
+.background-image {
+    /* width: 100%;  */
+    height: 100%; 
+    object-fit: cover; 
+    display: block; /* Remove any default spacing below the image */
+    margin-left: 100vh;
+}
+@media only screen and (max-width:1024px) {
+    .background-image {
+        object-fit: cover; 
+        margin: auto;
+        height: 40vh;
+        align-self: flex-end;
+        width: 43vw;
+        margin-top:6vh;
+    }
+}
+@media only screen and (max-width:600px) {
+    .background-image {
+        /* margin-right: 8px; */
+        height: 33vh;
+        width: 75vw;
+      transform: translateX(30%,-5%);
+        position: relative;
+        margin-bottom: 0vh;
+        
+    }
+}
